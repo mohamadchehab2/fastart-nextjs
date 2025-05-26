@@ -27,20 +27,27 @@ export default function PrivacyPolicyPage() {
           <p>
             We only collect information about you if we have a reason to do so—for example, to provide our Services, to communicate with you, or to make our Services better.
           </p>
-          <h3 className="text-xl font-medium mt-6 mb-3">Information You Provide to Us</h3>
           <p>
-            We collect information that you provide to us directly. For example, we collect information when you create an account, fill out a contact form, request customer support, or otherwise communicate with us. The types of information we may collect include your name, email address, postal address, phone number, and any other information you choose to provide.
+            We collect information in three ways: if and when you provide information to us, automatically through operating our Services, and from outside sources. Let&apos;s go over the information that we collect.
           </p>
-          <h3 className="text-xl font-medium mt-6 mb-3">Information We Collect Automatically</h3>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Information You Provide to Us</h3>
           <p>
-            <strong>Log Information:</strong> Like most online service providers, we collect information that web browsers, mobile devices, and servers typically make available, such as the browser type, IP address, unique device identifiers, language preference, referring site, the date and time of access, operating system, and mobile network information.
+            It’s probably no surprise that we collect information that you provide to us. The amount and type of information depends on the context and how we use the information. Here are some examples:
           </p>
+          <ul className="list-disc pl-6 mb-6">
+            <li><strong>Basic Account Information:</strong> We ask for basic information from you in order to set up your account. For example, we require individuals who sign up for a Fastart account to provide an email address and password, along with a username or name.</li>
+            <li><strong>Transaction and Billing Information:</strong> If you buy something from us, you will provide additional personal and payment information that is required to process the transaction and your payment, such as your name, credit card information, and contact information.</li>
+            <li><strong>Communications With Us:</strong> You may also provide us information when you respond to surveys, communicate with our support team, or post in our public forums.</li>
+          </ul>
+          <h3 className="text-xl font-semibold mt-6 mb-3">Information We Collect Automatically</h3>
           <p>
-            <strong>Usage Information:</strong> We collect information about your usage of our Services. For example, we collect information about the actions that users perform on our sites – in other words, who did what, when and to what thing on a site (e.g., [example of usage data like 'page views']). We use this information to, for example, provide our Services to you, as well as get insights on how people use our Services, so we can make our Services better.
+            We also collect some information automatically:
           </p>
-          <p>
-            <strong>Location Information:</strong> We may determine the approximate location of your device from your IP address. We collect and use this information to, for example, calculate how many people visit our Services from certain geographic regions.
-          </p>
+          <ul className="list-disc pl-6 mb-6">
+            <li><strong>Log Information:</strong> Like most online service providers, we collect information that web browsers, mobile devices, and servers typically make available, such as the browser type, IP address, unique device identifiers, language preference, referring site, the date and time of access, operating system, and mobile network information.</li>
+            <li><strong>Usage Information:</strong> We collect information about your usage of our Services. For example, we collect information about the actions that site administrators and users perform on a site — in other words, who did what, when and to what thing on a site (e.g., [Fastart User] deleted &quot;[Title of Post]&quot; at [time/date]). We also collect information about what happens when you use our Services (e.g., page views, button clicks) along with information about your device (e.g., screen size, name of cellular network, and mobile device manufacturer). We use this information to, for example, provide our Services to you, as well as get insights on how people use our Services, so we can make our Services better.</li>
+            <li><strong>Location Information:</strong> We may determine the approximate location of your device from your IP address. We collect and use this information to, for example, calculate how many people visit our Services from certain geographic regions.</li>
+          </ul>
           <p>
             <strong>Information from Cookies &amp; Other Technologies:</strong> A cookie is a string of information that a website stores on a visitor&apos;s computer, and that the visitor&apos;s browser provides to the website each time the visitor returns. Pixel tags (also called web beacons) are small blocks of code placed on websites and emails. Fastart uses cookies and other technologies like pixel tags to help us identify and track visitors, understand usage patterns, and assess access preferences for our Services, as well as to track and understand email campaign effectiveness. This information is used to improve our Services and is not used to track you across third-party apps or websites for advertising purposes.
           </p>
@@ -54,34 +61,34 @@ export default function PrivacyPolicyPage() {
             <li>To monitor and analyze trends and better understand how users interact with our Services, which helps us improve our Services and make them easier to use. This analysis is done on an aggregated or de-identified basis where possible and is not used to track individual users across third-party services.</li>
             <li>To measure, gauge, and improve the effectiveness of our advertising (such as first-party contextual ads within our Services), and better understand user retention and attrition.</li>
             <li>To communicate with you, for example through an email, about offers and promotions offered by Fastart and others we think will be of interest to you (where you have opted-in to such communications), solicit your feedback, or keep you up to date on Fastart and our products.</li>
-            <li>To personalize your experience using our Services and provide content recommendations. Any personalization is based on your activity within our Services and not by tracking your activity across other companies' apps or websites.</li>
+            <li>To personalize your experience using our Services and provide content recommendations. Any personalization is based on your activity within our Services and not by tracking your activity across other companies&apos; apps or websites.</li>
             <li>To protect our Services, our users, and the public. For example, by detecting security incidents; detecting and protecting against malicious, deceptive, fraudulent, or illegal activity; fighting spam; complying with our legal obligations; and protecting the rights and property of Fastart and others, which may result in us, for example, declining a transaction or terminating Services.</li>
           </ul>
 
           <h3 className="text-xl font-semibold mt-6 mb-3">Compliance with Apple App Tracking Transparency (ATT)</h3>
           <p>
-            Fastart is committed to upholding user privacy as outlined by Apple's App Store Review Guidelines, including the App Tracking Transparency (ATT) framework.
+            Fastart is committed to upholding user privacy as outlined by Apple&apos;s App Store Review Guidelines, including the App Tracking Transparency (ATT) framework.
           </p>
           <p>
-            "Tracking" as defined by Apple refers to linking user or device data collected from our app with user or device data collected from other companies’ apps, websites, or offline properties for targeted advertising or advertising measurement purposes. Tracking also refers to sharing user or device data with data brokers.
+            &quot;Tracking&quot; as defined by Apple refers to linking user or device data collected from our app with user or device data collected from other companies&apos; apps, websites, or offline properties for targeted advertising or advertising measurement purposes. Tracking also refers to sharing user or device data with data brokers.
           </p>
           <p>
-            <strong>Fastart does not engage in "tracking" as defined by Apple.</strong> We do not use your personal data collected from our app to track you across other companies' apps or websites for advertising purposes, nor do we share your personal data with data brokers. Therefore, you may not see an AppTrackingTransparency prompt from our app requesting permission to track, as such tracking is not performed.
+            <strong>Fastart does not engage in &quot;tracking&quot; as defined by Apple.</strong> We do not use your personal data collected from our app to track you across other companies&apos; apps or websites for advertising purposes, nor do we share your personal data with data brokers. Therefore, you may not see an AppTrackingTransparency prompt from our app requesting permission to track, as such tracking is not performed.
           </p>
           <p>
-            Any third-party SDKs integrated into our app are configured to prevent tracking where such options are available, or are chosen for their commitment to not engage in tracking as defined by Apple without explicit user consent through the ATT framework. We remain responsible for the data practices of any third-party services we use and strive to ensure they align with our privacy commitments and Apple's guidelines.
+            Any third-party SDKs integrated into our app are configured to prevent tracking where such options are available, or are chosen for their commitment to not engage in tracking as defined by Apple without explicit user consent through the ATT framework. We remain responsible for the data practices of any third-party services we use and strive to ensure they align with our privacy commitments and Apple&apos;s guidelines.
           </p>
 
           <h2 className="text-2xl font-semibold mt-8 mb-4">3. Sharing Your Information</h2>
           <p>
-            We do not sell our users’ private personal information.
+            We do not sell our users&apos; private personal information.
           </p>
           <p>
             We share information about you in the limited circumstances spelled out below and with appropriate safeguards on your privacy:
           </p>
           <ul className="list-disc pl-6 mb-6">
             <li><strong>Subsidiaries, Employees, and Independent Contractors:</strong> We may disclose information about you to our subsidiaries, our employees, and individuals who are our independent contractors that need to know the information in order to help us provide our Services or to process the information on our behalf. We require our subsidiaries, employees, and independent contractors to follow this Privacy Policy for personal information that we share with them.</li>
-            <li><strong>Third Party Vendors:</strong> We may share information about you with third party vendors who need to know information about you in order to provide their services to us (e.g., cloud hosting, analytics services that help us understand usage of our own Services without tracking you across third-party sites, customer support tools). These vendors are contractually obligated to protect your data and are prohibited from using your personal information for any purpose other than to provide services to Fastart, and specifically not for tracking you across other companies' apps or websites.</li>
+            <li><strong>Third Party Vendors:</strong> We may share information about you with third party vendors who need to know information about you in order to provide their services to us (e.g., cloud hosting, analytics services that help us understand usage of our own Services without tracking you across third-party sites, customer support tools). These vendors are contractually obligated to protect your data and are prohibited from using your personal information for any purpose other than to provide services to Fastart, and specifically not for tracking you across other companies&apos; apps or websites.</li>
             <li><strong>Legal Requests:</strong> We may disclose information about you in response to a subpoena, court order, or other governmental request.</li>
             <li><strong>To Protect Rights, Property, and Others:</strong> We may disclose information about you when we believe in good faith that disclosure is reasonably necessary to protect the property or rights of Fastart, third parties, or the public at large.</li>
             <li><strong>Business Transfers:</strong> In connection with any merger, sale of company assets, or acquisition of all or a portion of our business by another company, or in the unlikely event that Fastart goes out of business or enters bankruptcy, user information would likely be one of the assets that is transferred or acquired by a third party. If any of these events were to happen, this Privacy Policy would continue to apply to your information and the party receiving your information may continue to use your information, but only consistent with this Privacy Policy.</li>
