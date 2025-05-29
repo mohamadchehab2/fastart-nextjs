@@ -1,5 +1,6 @@
 'use client'
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   const styles = [
@@ -114,25 +115,34 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen text-white font-sans">
-      <header className="py-5 px-4 md:px-8 sticky top-0 z-50 ">
+      <header className="py-8 px-4 md:px-16 sticky top-0 z-50 ">
         <div className="container mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <Image src="/logo.png" alt="Logo" width={36} height={36} className="rounded-md" />
+            <Image src="/logo.png" alt="Logo" width={72} height={72} className="rounded-md" />
           </div>
 
         </div>
       </header>
 
-      <main className="flex-grow container mx-auto px-4 md:px-8 py-16 md:py-24 flex items-center">
+      <main className="flex-grow container mx-auto px-4 md:px-8 py-4 md:py-6 md:pb-18 flex items-center">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
-            <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 text-black leading-tight">
-              Transform your <span className="text-zinc-900 font-bold">ideas</span> into reality
+            <h1 className="text-5xl md:text-6xl lg:text-7xl dark:text-white font-extrabold mb-6 text-black leading-tight">
+              Transform your <span className="text-zinc-900 dark:text-white font-bold">ideas</span> into reality
             </h1>
-            <p className="text-lg md:text-xl text-slate-400 mb-10 max-w-xl mx-auto md:mx-0">
+            <p className="text-lg md:text-xl text-slate-400 dark:text-slate-500 mb-10 max-w-xl mx-auto md:mx-0">
               Unleash your creativity with our cutting-edge platform. Visualize, generate, and bring your unique concepts to life like never before.
             </p>
-      
+            <Link className="dark:hidden inline-flex justify-center items-center md:inline-flex md:justify-center md:items-center" href="https://apps.apple.com/us/app/fastart-ai-art-image-maker/id6745936302">
+            <div >
+              <Image src="/White_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_wht_092917.svg" alt="Fastart - AI Art & Image Maker iOS Application Download" width={200} height={200} className="rounded-md" />
+            </div>
+            </Link>
+            <Link className="hidden dark:inline-flex dark:justify-center dark:items-center md:hidden md:dark:inline-flex md:dark:justify-center md:dark:items-center" href="https://apps.apple.com/us/app/fastart-ai-art-image-maker/id6745936302">
+            <div >
+              <Image src="/Black_lockup/SVG/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg" alt="Login" width={200} height={200} className="rounded-md" />
+            </div>
+            </Link>
           </div>
 
           <div className="relative grid grid-cols-2 gap-4 md:gap-5 p-2 h-[380px] md:h-[480px]">
