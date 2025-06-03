@@ -1,4 +1,6 @@
 'use client'
+import Header from "@/components/Header";
+import Footer from "@/components/Footer"
 import Image from "next/image";
 import Link from "next/link";
 
@@ -115,15 +117,7 @@ export default function Home() {
 
   return (
     <div className="flex flex-col min-h-screen text-white font-sans">
-      <header className="py-8 px-4 md:px-16 sticky top-0 z-50 ">
-        <div className="container mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <Image src="/logo.png" alt="Logo" width={72} height={72} className="rounded-md" />
-          </div>
-
-        </div>
-      </header>
-
+      <Header />
       <main className="flex-grow container mx-auto px-4 md:px-8 py-4 md:py-6 md:pb-18 flex items-center">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="text-center md:text-left">
@@ -172,17 +166,7 @@ export default function Home() {
           </div>
         </div>
       </main>
-
-      <footer className="py-8 px-4 md:px-8 border-t border-slate-700 text-sm text-slate-500">
-        <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
-          <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
-          <div className="flex gap-5">
-            <a href="/terms" className="hover:text-slate-300 transition-colors">Terms of Service</a>
-            <a href="/privacy" className="hover:text-slate-300 transition-colors">Privacy Policy</a>
-          
-          </div>
-        </div>
-      </footer>
+      <Footer />
     </div>
   );
 }
